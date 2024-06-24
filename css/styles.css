@@ -1,0 +1,169 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*-----FONDO------*/
+
+body{
+    background-color: white;
+}
+/*----------HEADER------------*/
+header{
+font-size: 20px;
+margin: 0 auto;
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-style:normal;
+}
+
+header img{
+height: 80px;
+width: 100px;
+}
+
+nav li:hover{
+    font-size: 25px;
+}
+
+/*--------MAIN------------*/
+/*FUENTES*/
+.fuente1{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.decoracion{
+    text-decoration: none;
+}
+
+.decoracion:hover{
+    text-decoration:underline;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.fuente2{
+    font-size: 30px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.fuente3{
+    font-size: 14px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 540;
+}
+
+.fuente4{
+    font-size: 18px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 540;
+}
+
+h5:hover{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/*-------------SECTIONS-------------*/
+
+.section{
+    margin: 0 auto;
+    width: 400px;
+    border: 10px solid rgb(224, 224, 224);
+    border-radius: 10px;
+}
+
+.section2{
+    margin: 0 auto;
+    width: 400px;
+    height: 520px;
+    border: 10px solid rgb(224, 224, 224);
+    border-radius: 10px;
+}
+
+/*--------------IMAGENES---------------*/
+
+img{
+    height: 500px;
+    width: 300px;
+}
+
+.imagen_card{
+    height: 300px;
+    width: 285px;
+}
+
+.imagen_card2{
+    height: 300px;
+    width: 400px;
+}
+
+.imagen_card_contenido{
+    height: 300px;
+    width: 200px;
+    margin: 0 auto;
+
+}
+
+/*---------------CARDS-------------*/
+
+.card2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-height: 600px;
+
+}
+
+.card2:hover{
+    border: 10px  solid rgb(224, 224, 224);
+    border-radius: 10px;
+}
+
+/*-----------FLEXBOX----------*/
+
+.d-flex{
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+}
+
+.p-2{
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/*--------------FOOTER-------------*/
+
+footer{
+    padding-left: 15px;
+    padding-top: 5px;
+    background-color: rgb(26, 25, 25);
+    margin-top: 20px;
+    height: 100px;
+    max-width: 1500px;
+    align-items: column;
+
+}
+
+/*-------------MEDIA QUERI-------------*/
+
+@media screen and ( max-width: 620px) 
+{
+    .d-flex{
+        height: 2000px;
+    }
+    footer{
+        height: 300px;
+    }
+    .d-flex2{
+        height: 4600px;
+    }
+}
